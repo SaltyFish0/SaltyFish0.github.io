@@ -1,0 +1,325 @@
+<html><head>
+  <meta charset="utf-8">
+  <title>青少年人工智能AI绘画挑战赛赛项说明</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <style>
+  *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      color:#333;
+      appearance: none;
+      font-weight: 100;
+      font-size: 14px;
+      list-style: none;
+      letter-spacing:2px
+  }
+  .body{
+      max-width: 960px;
+      display: flex;
+      align-items: flex-start;
+      padding-top: 20px;
+      margin: 0 auto;
+      z-index: 0;
+  }
+  ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  ::-webkit-scrollbar-track {
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.06);
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.08);
+  }
+  .content{
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 0px;
+      margin-right: 20px;
+      width: 700px;
+      padding: 20px;
+      margin-bottom: 250px;
+      box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.1);
+  }
+  .side{
+      position: sticky;
+      top: 80px;
+      width: 240px;
+      background-color: white;
+      padding: 20px;
+      padding-bottom: 20px;
+      box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.1);
+      /* 强行标注，显眼包 */
+      /* border: 3px solid red; */
+  }
+  .hr{
+      width: 100%;
+      height: 1px;
+      background-color: #e8e8e8;
+      margin: 20px 0px 20px 0px;
+  }
+  .view{
+      width: 100%;
+  }
+  .view span{
+      font-size: 12px;
+      display: inline-block;
+      margin: 10px 10px 0px 0px;
+      height: 30px;
+  }
+  .concern{
+      border:1px solid #e8e8e8;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      width: 60px;
+      float:right;
+  }
+  .concern:hover{
+      color: #37597d;
+      border: 1px solid #37597d;
+      font-weight: 800;
+  }
+  .side div p{
+      font-size: 14px;
+  }
+  .side div ul li,.catalog{
+      margin-bottom: 10px;
+  }
+  .side div ul li a,.catalog a{
+      display: block;
+      width: 100%;
+      font-size: 12px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      font-weight: 100;
+  }
+  .content ul li{
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom:1px solid #e8e8e8;
+  }
+  .content ul li h3{
+      width: 100%;
+  }
+  .content ul li p{
+      width: 100%;
+      font-size: 12px;
+      color: #999;
+      margin-top: 5px;
+  }
+  .article{
+      overflow-y: scroll;
+      padding-bottom: 500px;
+  }
+  .article p{
+      font-size: 14px;
+  }
+  
+  @media screen and (max-width: 960px) {
+      .side {
+          display: none;
+      }
+      .body{
+          max-width:100vw;
+      }
+      .content{
+          width: 90%;
+          margin-right: 0px;
+          margin-left: 5%;
+      }
+      
+      .concern{
+          float: none;
+      }
+      .content ul li h3,.nav ul li,.article p{
+          font-size: 12px;
+      }
+      .content ul li p,.view span{
+          font-size: 8px;
+      }
+      
+  }
+  .dir{
+      height: 250px;
+      overflow-y: scroll;
+      
+  }
+  .catalog-active{
+      color: #1376df;
+      border-left: 3px solid #1376df;
+      font-weight: 800;
+  }
+  .catalog-active a{
+      color: #1376df;
+  }
+  h1{
+	  margin:20px 0;
+	  font-size: 1.4em;
+	  font-weight: 600;
+  }
+  h2{
+	  margin:10px 0;
+	  font-size: 1.2em;
+	  font-weight: 400;
+  }
+  p{
+	  text-indent:2em;
+	  margin:10px 0;
+  }
+      </style>
+      </head>
+      <body>
+  
+         <div class="body">
+              <div class="content">
+				  <h1 style="font-size: 2em;text-align: center;color: red;border-bottom: 4px solid red;">山东省青少年人工智能科普和创新创意大赛</h1>
+                  <h2 style="font-size: 1.6em;text-align:center;">青少年人工智能AI绘画挑战赛赛项说明<h2>
+                  
+				  <div class="view" style="margin-top:1em ;">
+				      <span>浪潮卓数大数据产业发展有限公司</span>
+				      <!-- <span>浏览:1212453</span> -->
+				      <span>时间:2024-06-12</span>
+				      <!-- <span class="concern">关注</span> -->
+				      <a class="concern" style="font-weight: 400;" href="https://aipatinting.oss-cn-qingdao.aliyuncs.com/%E9%9D%92%E5%B0%91%E5%B9%B4%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BDAI%E7%BB%98%E7%94%BB%E6%8C%91%E6%88%98%E8%B5%9B%E8%B5%9B%E9%A1%B9%E8%AF%B4%E6%98%8E.pdf">下载</a>
+				  </div>
+                  <div class="article">
+                      
+                      <h1 id="section-1">一、赛事背景</h1>
+					  <p>
+						  在当今时代，人工智能技术作为国家战略的重要组成部分，正以前所未有的速度推动着全球科技和经济社会的发展。为了积极响应党和国家关于加强青少年科技创新教育、培养未来科技人才的重要政策，我们特举办此次“青少年人工智能大赛AI绘画挑战赛”。本赛事旨在通过AI绘画这一富有创意与技术融合的领域，激发青少年对人工智能技术的兴趣，提升他们的创新思维与实践能力，同时加深他们对国家政策导向的理解和认识。
+					  </p>
+					  <p>
+						  本赛项以“智能绘梦·筑基未来”为主题，紧密围绕党和国家关于科技创新、文化传承、生态文明建设等重大战略部署，鼓励参赛学生利用人工智能技术，创作出既富含科技元素又深具文化内涵的艺术作品。赛题设计旨在考察学生的多方面能力：
+					  </p>
+						  <p>
+							  技术应用与创新能力：要求参赛者掌握基础的人工智能工具运用等，并能灵活运用这些技术于艺术创作之中，展现出独特的创意和视角。
+						  </p>
+						  <p>
+							  社会责任与文化意识：赛题将引导学生关注社会热点问题，如反对战争、环境保护、文化遗产保护等，通过AI绘画表达对这些问题的思考与解决方案，增强青少年的社会责任感和文化传承意识。
+						  </p>
+						  <p>
+							  团队合作与交流能力：比赛鼓励团队参赛形式，让学生在项目策划、技术实现、创意碰撞的过程中学会协作与沟通，为未来学生、生活中的团队合作打下坚实的基础。
+						  </p>
+                      
+					
+					
+                      <h1 id="section-2">二、竞赛内容</h1>
+					  <h2>（一）竞赛内容结构</h2>
+					  <p>
+						  本次青少年人工智能AI绘画挑战赛分为中小学组和高中组，各参赛队伍根据组别任选其一主题参加比赛,作品需健康向上，不得包含违法、色情、暴力、歧视等不良信息。具体设置如下：
+					  </p>
+					  <p style="font-weight: bold;font-size: 1em;text-indent: 0;">中小学组初赛题目：</p>
+					  <p>
+						  <span style="font-weight: 400;">1.我的学校</span>-创作以我的学校为主题的艺术作品。描绘出心目中古代、现代或未来学校的教学环境、学习方式以及师生间的互动。
+					  </p>
+					  <p><span style="font-weight: 400;">2.动物世界</span>-描绘各种可爱的动物形象，如熊猫、长颈鹿、狮子等，展示动物的多样性和魅力。</p>
+					  <p><span style="font-weight: 400;">3.诗歌配合</span>-基于自己喜欢的诗歌，绘制一幅对应场景的画作。</p>
+					  <p><span style="font-weight: 400;">4.传统文化</span>-绘制一幅具有中国传统元素的画作，如京剧脸谱、中国结、龙凤等。也可结合地方特色，描绘出展示当地民俗风情，如端午
+赛龙舟、中秋赏月等。</p>
+					<p style="font-weight: bold;font-size: 1em;text-indent: 0;">高中组初赛题目：</p>
+					  <p><span style="font-weight: 400;">1.未来城市</span>-基于想象力和创造力，描绘出一幅未来城市生活的美好景象。作品应体现未来城市的科技、生态、健康、人文等关键特点。</p>
+					  <p><span style="font-weight: 400;">2.汉服设计</span>-将传统服饰元素与现代理念融合，绘制出一身自己喜欢的汉服作品，呈现传统工艺的精湛绝妙和创意设计的奇思妙想。</p>
+					  <p><span style="font-weight: 400;">3.文化保护</span>-探索人工智能技术在文化遗产保护中的使用场景，作品可体现AI技术在文化遗产鉴定、修复、展示等方面的应用。</p>
+					  <p><span style="font-weight: 400;">4.历史故事</span>-创作一幅反映中国历史上著名事件或人物的画作，如长城修建、丝绸之路、四大发明等。</p>
+					  
+					  
+					  <h2>（二）比赛时长</h2>
+					  <p>初赛作品为在线投稿，须在比赛规定截止日期前进行提交。</p>
+					  <p>决赛为现场比赛，决赛题目现场公布，比赛时长为2小时。</p>
+                      
+					  
+					  
+                      <h1 id="section-3">三、技术环境</h1>
+					  <h2>（一）软件环境</h2>
+					  <p>优先使用基于“StableDiffusion”或其他开放源代码的图像生成模型进行创作，鼓励技术改良与创新应用。</p>
+					  
+					  <h2>（二）技术平台</h2>
+					  <p>赛事训练及作品生成平台由赛事技术支撑单位进行提供，参赛选手也可自行搭建或使用相关平台。</p>
+                      
+					  
+					  
+                      <h1 id="section-4">四、竞赛样题</h1>
+					  <p><span style="font-weight: 400;">主题设定：</span>比赛将围绕“未来城市生活”这一主题展开。参赛者需利用人工智能在绘画领域应用的主流技术生成图像，展现你对未来城市生活环境、交通、居住、工作或娱乐等方面的独特想象。</p>
+					  <p><span style="font-weight: 400;">技术创新：</span>鼓励参赛者不仅限于基本的文本到图像的转换，还应探索模型的边界，比如通过调整模型参数、结合其他AI技术（如风格迁移、图像增强）或引入自定义数据集等方式，提升图像的创意性、细节丰富度和视觉冲击力。</p>
+					  <p><span style="font-weight: 400;">作品展示：</span>提交的作品需为一幅图像，图像需附有简短的文字说明，阐述其设计理念和所采用的技术手段。</p>
+					  <p><span style="font-weight: 400;">原创性和伦理考量：</span>确保所有提交的内容均为原创，不侵犯他人版权。同时，作品应遵循社会伦理和法律规范，避免不当或敏感内容。</p>
+                      
+					  
+					  
+                      <h1 id="section-5">五、赛项安全</h1>
+					  <p>按照赛事组织委员会的要求，围绕“保安全、保畅通、保稳定”的总目标，制定周密详细的工作方案，确保大赛期间参赛选手、指导教师、裁判员、工作人员及观众的安全，确保大赛顺利进行。</p>
+					  <p>1.成立安全管理机构，负责赛项筹备和比赛期间的各项安全工作。赛事执委会主任为赛项安全工作第一责任人。</p>
+					  <p>2.赛项执委会在赛前对本赛项全体裁判员和工作人员进行安全培训，并在赛前对选手进行培训，避免发生人身伤害事故。</p>
+					  <p>3.赛项执委会在赛前组织专人对比赛现场、住宿场所和交通工具及路线进行考察，并对安全工作提出明确要求。赛场的布置，赛场内的器材、设备，应符合国家有关安全规定。</p>
+					  <p>4.所有人员必须凭证件进入赛场，按场馆规定配合做好安检工作。赛场严禁无关人员携带通讯、照相摄录设备进入。</p>
+					  <p>5.承办院校应能提供稳定的水、电等与竞赛、生活必备的资源，并有供电应急设备。</p>
+					  <p>6.保安、医护、消防、设备维修和电力抢险人员待命，及时处置突发事件。</p>
+					  <p>比赛期间如发生火情、伤病等特殊情况，要保持镇静，服从现场工作人员指挥。遇到紧急情况须服从安保人员统一指挥，有序撤离。</p>
+                      
+					  
+					  
+                      <h1 id="section-6">六、成绩评定</h1>
+					  <h2>（一）评分方式</h2>
+					  <p><span style="font-weight: 400;">初赛阶段：</span>由专业评审团根据评分标准对所有提交作品进行打分，筛选出一定数量的入围作品。</p>
+					  <p><span style="font-weight: 400;">决赛阶段：</span>由专业评审团根据评分标准对所有提交作品进行打分，最终确定获奖名单。</p>
+					  
+					  <h2>（二）成绩产生</h2>
+					  <p>在监督仲裁组监督下，由裁判长指定解密裁判启封检录抽签加密档案，找出各参赛队与加密对应关系；将竞赛结果分别由加密号转换为参赛队；将相应赛项分值按照规则计算，得出总分；然后进行分值排序；打印封装。</p>
+					  
+					  <h2>（三）成绩复核</h2>
+					  <p>为保障成绩评判的准确性，监督组将对赛项总成绩排名前30的所有参赛队伍（选手）的成绩进行复核；对其余成绩进行抽检复核，抽检覆盖率不得低于15%。如发现成绩错误以书面方式及时告知裁判长，由裁判长更正成绩并签字确认。如果复核、抽检错误率超过5%，裁判组将对所有成绩进行复核。</p>
+					  
+					  <h2>（四）成绩公布</h2>
+					  <p>团队成绩按模块得分进行加权计算，满分100分。最终成绩经复核无误，由裁判长、监督仲裁组人员共同签字确认后公布，公布2小时无异议后即可宣布，在闭幕式上予以公布。</p>
+					  <h2>（五）特殊情况</h2>
+					  <p>参赛队伍如有损坏赛场提供的设备等不符合职业规范的行为，视情节扣5-10分。在竞赛时段，参赛选手有不服从裁判及监考、扰乱赛场秩序等行为情节严重的，取消参赛队评奖资格。有作弊行为的，该选手成绩所有赛项分数计“零”分，参赛队所在学校禁赛一年。裁判宣布竞赛时间到，选手仍强行操作的，该选手该项成绩计“零”分，取消参赛队奖项评比资格。</p>
+					  <h2>（六）评分标准</h2>
+					  <p>见下页表格</p>
+                      <div>
+						  <img src="https://aipatinting.oss-cn-qingdao.aliyuncs.com/%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.png" style="width: 100%;" alt="" />
+					  </div>
+					  
+					  
+                      <h1 id="section-7">七、报名要求与方式</h1>
+					  <h2>（一）竞赛形式</h2>
+					  <p>初赛为在线投稿作品，决赛为线下比赛。（初赛作品提交平台地址以后续QQ群通知为准）</p>
+					  <h2>（二）组队方式</h2>
+					  <p>组队方式为团体赛，每队由1-4名学生组成，任务可以自由分配，可跨校组队，每队可设指导教师1-2人。</p>
+					  <h2>（三）报名资格</h2>
+					  <p>山东省内在校中小学生、高中生</p>
+					  <h2>（四）联系方式</h2>
+					  <p style="font-weight: bold;">联系人：吴老师13964108351 &nbsp;&nbsp;&nbsp; 董老师13075392893</p>
+					  <p style="font-weight: bold;">QQ咨询群：917401909</p>
+                      
+                      
+					  
+					  <p style="margin-top: 20px;font-weight: bold;text-indent: 0;font-size: 1em;">特别说明：赛前培训教程详见比赛QQ群内视频，比赛相关动态信息以QQ群通知为准；</p>
+                  </div>
+              </div>
+              <div class="side">
+                  <div class="hr"></div>
+                  <div>
+                      <p>目录</p>
+                      <div class="hr"></div>
+                  </div>
+                  <div class="dir">
+                      
+                  </div>
+              </div>
+      </div>
+      <script src="script.js"></script>
+  
+  </body></html>
